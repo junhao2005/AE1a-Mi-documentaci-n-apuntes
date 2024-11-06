@@ -163,25 +163,25 @@ HTML (HyperText Markup Language) es el lenguaje de marcado utilizado para estruc
 
 - **``<!DOCTYPE html>``:** Define el tipo de documento, en este caso es HTML5.
 - **``<html>``:** Etiqueta raíz que contiene todo el contenido de la página.
-- **<head>:** Contiene metadatos sobre el documento (título, codificación, etc.).
-- **<meta charset="UTF-8">:** Define la codificación de caracteres, importante para caracteres especiales. 
-- **<title>:** Título de la página que aparece en la pestaña del navegador.
-- **<body>:** Contiene el contenido visible de la página (texto, imágenes, enlaces, etc.).
+- **``<head>``:** Contiene metadatos sobre el documento (título, codificación, etc.).
+- **``<meta charset="UTF-8">``:** Define la codificación de caracteres, importante para caracteres especiales. 
+- **``<title>``:** Título de la página que aparece en la pestaña del navegador.
+- **``<body>``:** Contiene el contenido visible de la página (texto, imágenes, enlaces, etc.).
 
 ## Etiquetas Básicas de HTML
 
 |Comando | Funcion | 
 |-----------|:----------:|
-|<h1>, <h2>, ..., <h6>|Títulos de diferentes tamaños (h1 es el más grande, h6 el más pequeño).|
-|<p>|Para texto|
-|<br>|Salto de línea.|
-|<hr>|Línea horizontal.|
-|<b> o <strong>|Texto en negrita|
-|<i> o <em>|Texto en cursiva.|
-|<u>|Texto subrayado.|
-|<li>|Se lleva en cada elemento de la lista|
-|<ul>|lista desordenada|
-|<ol>|lista ordenada|
+|``<h1>, <h2>, ..., <h6>``|Títulos de diferentes tamaños (h1 es el más grande, h6 el más pequeño).|
+|``<p>``|Para texto|
+|``<br>``|Salto de línea.|
+|``<hr>``|Línea horizontal.|
+|``<b> o <strong>``|Texto en negrita|
+|``<i> o <em>``|Texto en cursiva.|
+|``<u>``|Texto subrayado.|
+|``<li>``|Se lleva en cada elemento de la lista|
+|``<ul>``|lista desordenada|
+|``<ol>``|lista ordenada|
 
 
 
