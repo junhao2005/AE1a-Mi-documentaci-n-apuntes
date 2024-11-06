@@ -23,7 +23,7 @@ Resultado: aqui podemos ver que ya esta clonado.
 ![img](./img/img5.png "img5")
 <br>
 ## Comando basico de git
-* git: para iniciar 
+* git init: para iniciar 
 * git branch: para ver la rama donde trabajamos
 * git branch -M main: situar el repositorio en main
 * git add .: para añadir todos los archivos
@@ -36,7 +36,7 @@ Resultado: aqui podemos ver que ya esta clonado.
 
 # Comando basico de markdown
 
-Mostracion en markdown:
+Mostracion en markdown: (niveles de encabezado)
 
 ```
 # Perimer nivel de encabezado
@@ -57,7 +57,7 @@ Resultado:
 
 ## Coamdo para poner en negrita y cursiva
 
-Mostracion:
+Mostracion en markdown:
 ```
  *0373* del ciclo de **ASIX** o DAW del curso _2425_.
 ```
@@ -140,3 +140,49 @@ Resultado:
 |SMX2 |Curso 2324|25| 
 |**ASIX1** |Curso 2425|33| 
 |DAW2 |Curso 2425|35| 
+
+# ¿Que es HTML?
+HTML (HyperText Markup Language) es el lenguaje de marcado utilizado para estructurar y presentar contenido en la web. Define la estructura de una página web mediante etiquetas.
+<br>
+
+# Estructura Básica de un Documento HTML
+```
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título de la Página</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
+## Explicacion: 
+
+- **<!DOCTYPE html>:** Define el tipo de documento, en este caso es HTML5.
+- **<html>:** Etiqueta raíz que contiene todo el contenido de la página.
+- **<head>:** Contiene metadatos sobre el documento (título, codificación, etc.).
+- **<meta charset="UTF-8">:** Define la codificación de caracteres, importante para caracteres especiales. 
+- **<title>:** Título de la página que aparece en la pestaña del navegador.
+- **<body>:** Contiene el contenido visible de la página (texto, imágenes, enlaces, etc.).
+
+## Etiquetas Básicas de HTML
+
+|Comando | Funcion | 
+|-----------|:----------:|
+|<h1>, <h2>, ..., <h6>|Títulos de diferentes tamaños (h1 es el más grande, h6 el más pequeño).|
+|<p>|Para texto|
+|<br>|Salto de línea.|
+|<hr>|Línea horizontal.|
+|<b> o <strong>|Texto en negrita|
+|<i> o <em>|Texto en cursiva.|
+|<u>|Texto subrayado.|
+|<li>|Se lleva en cada elemento de la lista|
+|<ul>|lista desordenada|
+|<ol>|lista ordenada|
+
+
+
+
