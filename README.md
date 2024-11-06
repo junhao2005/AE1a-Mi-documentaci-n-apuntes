@@ -193,7 +193,8 @@ Mostracion en html:
     <li>Elemento 1</li>
     <li>Elemento 2</li>
 </ul>
-'''
+```
+
 Resultado:
 
 <ul>
