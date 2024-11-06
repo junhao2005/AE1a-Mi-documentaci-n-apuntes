@@ -184,5 +184,42 @@ HTML (HyperText Markup Language) es el lenguaje de marcado utilizado para estruc
 |``<ol>``|lista ordenada|
 
 
+## Ejemplo de la lista desordenada
+
+Mostracion en html:
+
+```
+<ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+</ul>
+'''
+Resultado:
+
+<ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+</ul>
+
+## Ejemplo de la lista ordenada
+Mostracion en html:
+```
+<ol>
+    <li>Primer elemento</li>
+    <li>Segundo elemento</li>
+</ol>
+```
+Resultado:
+<ol>
+    <li>Primer elemento</li>
+    <li>Segundo elemento</li>
+</ol>
+
+
+
+
+
+
+
 
 
