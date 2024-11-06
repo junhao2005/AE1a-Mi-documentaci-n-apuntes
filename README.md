@@ -21,3 +21,14 @@ Y en siguiente paso es entrar al cmd y nos vamos al directorio donde guardamos t
 Resultado: aqui podemos ver que ya esta clonado.
 <br>
 ![img](./img/img5.png "img5")
+<br>
+## Comando basicos de git
+* git: para iniciar 
+* git branch: para ver la rama donde trabajamos
+* git branch -M main: situar el repositorio en main
+* git add .: para añadir todos los archivos
+* git commit -m "añadir comentario": sirve para añadir commit
+* git push origin main: subir el cambio
+* git remote add origin "link de URL": es sincronizar repositorio local con el web
+* git pull: bajar el cambio
+* git clone: sirve para clonar
