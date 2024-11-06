@@ -161,8 +161,8 @@ HTML (HyperText Markup Language) es el lenguaje de marcado utilizado para estruc
 ```
 ## Explicacion: 
 
-- **<!DOCTYPE html>:** Define el tipo de documento, en este caso es HTML5.
-- **<html>:** Etiqueta raíz que contiene todo el contenido de la página.
+- **``<!DOCTYPE html>``:** Define el tipo de documento, en este caso es HTML5.
+- **``<html>``:** Etiqueta raíz que contiene todo el contenido de la página.
 - **<head>:** Contiene metadatos sobre el documento (título, codificación, etc.).
 - **<meta charset="UTF-8">:** Define la codificación de caracteres, importante para caracteres especiales. 
 - **<title>:** Título de la página que aparece en la pestaña del navegador.
