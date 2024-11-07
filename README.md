@@ -216,6 +216,31 @@ Resultado:
     <li>Segundo elemento</li>
 </ol>
 
+<br>
+
+## Enlaces
+Usamos este comando para crear un enlace: ```<a href="url">Texto del enlace</a>```
+
+html:
+```
+<a href="https://es.wikipedia.org/wiki/Lionel_Messi">Messi</a>
+```
+
+Resultado: 
+
+<a href="https://es.wikipedia.org/wiki/Lionel_Messi">Messi</a>
+
+## Imagenes
+Usamos este comando para mostrar un imagen: ```<img src="ruta_imagen" alt="descripcion de la imagen">```
+
+html:
+```
+<img src="./img/messi.png" alt="imagen messi">
+```
+Resultado: 
+<img src="./img/messi.png" alt="imagen messi">
+
+
 
 
 
