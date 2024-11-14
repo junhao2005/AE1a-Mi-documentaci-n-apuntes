@@ -57,6 +57,8 @@ Resultado:
 
 ## Coamdo para poner en negrita y cursiva
 
+Para ponerlo en negrita usamos esto '** **' y para cursiva podemos usar '* *' o '_ _'.
+
 Mostracion en markdown:
 ```
  *0373* del ciclo de **ASIX** o DAW del curso _2425_.
@@ -186,8 +188,9 @@ HTML (HyperText Markup Language) es el lenguaje de marcado utilizado para estruc
 
 ## Ejemplo de la lista desordenada
 
-Mostracion en html:
+Mostracion en html: para crear una lista desordenada tenemos que usar el etiqueta ul uno en el pripncipio y una en el finla y en el medio usamos li para listarlo.
 
+Ej:
 ```
 <ul>
     <li>Elemento 1</li>
@@ -219,7 +222,7 @@ Resultado:
 <br>
 
 ## Enlaces
-Usamos este comando para crear un enlace: ```<a href="url">Texto del enlace</a>```
+Usamos este comando para crear un enlace: ```<a href="pegar url de un enlace que quieres poner">Texto del enlace</a>```
 
 html:
 ```
@@ -231,13 +234,14 @@ Resultado:
 <a href="https://es.wikipedia.org/wiki/Lionel_Messi">Messi</a>
 
 ## Imagenes
-Usamos este comando para mostrar un imagen: ```<img src="ruta_imagen" alt="descripcion de la imagen">```
+Usamos este comando para mostrar un imagen: ```<img src="ruta_imagen" alt="descripcion de la imagen">``` en el img src ponemos la ruta de la imagen y en el alt description de la imagen. 
 
 html:
 ```
 <img src="./img/messi.png" alt="imagen messi">
 ```
 Resultado: 
+<br>
 <img src="./img/messi.png" alt="imagen messi">
 
 
