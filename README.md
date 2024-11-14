@@ -23,15 +23,15 @@ Resultado: aqui podemos ver que ya esta clonado.
 ![img](./img/img5.png "img5")
 <br>
 ## Comando basico de git
-* git init: para iniciar 
-* git branch: para ver la rama donde trabajamos
-* git branch -M main: situar el repositorio en main
-* git add .: para añadir todos los archivos
-* git commit -m "añadir comentario": sirve para añadir commit
-* git push origin main: subir el cambio
-* git remote add origin "link de URL": es sincronizar repositorio local con el web
-* git pull: bajar el cambio
-* git clone: sirve para clonar
+* **git init**: para iniciar 
+* **git branch**: para ver la rama donde trabajamos
+* **git branch -M main**: situar el repositorio en main
+* **git add .**: para añadir todos los archivos
+* **git commit -m "añadir comentario"**: sirve para añadir commit
+* **git push origin main**: subir el cambio
+* **git remote add origin "link de URL"**: es sincronizar repositorio local con el web
+* **git pull**: bajar el cambio
+* **git clone**: sirve para clonar
 <br>
 
 # Comando basico de markdown
@@ -184,6 +184,7 @@ HTML (HyperText Markup Language) es el lenguaje de marcado utilizado para estruc
 |``<li>``|Se lleva en cada elemento de la lista|
 |``<ul>``|lista desordenada|
 |``<ol>``|lista ordenada|
+|``<!--comentario-->``|Para añadir comentario|
 
 
 ## Ejemplo de la lista desordenada
