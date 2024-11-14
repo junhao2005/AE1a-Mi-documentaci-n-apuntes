@@ -57,7 +57,7 @@ Resultado:
 
 ## Coamdo para poner en negrita y cursiva
 
-Para ponerlo en negrita usamos esto '** **' y para cursiva podemos usar '* *' o '_ _'.
+Para ponerlo en negrita usamos esto ``** **`` y para cursiva podemos usar ``* *`` o ``_ _``.
 
 Mostracion en markdown:
 ```
@@ -97,7 +97,7 @@ Resultado:
 
 
 **Como mostrar codigo en un repositorio**
-usando este simbolo "```" 
+usando este simbolo "```" para mostrar los codigos.
 
 ```
 <!DOCTYPE html>
@@ -206,6 +206,8 @@ Resultado:
 </ul>
 
 ## Ejemplo de la lista ordenada
+Para crear una lista desordenada tenemos que usar el etiqueta ul uno en el pripncipio y una en el finla y en el medio usamos li para listarlo.
+
 Mostracion en html:
 ```
 <ol>
@@ -243,6 +245,28 @@ html:
 Resultado: 
 <br>
 <img src="./img/messi.png" alt="imagen messi">
+
+## Tabla de contenidos
+En HTML que permite a los usuarios navegar entre diferentes secciones de la página de manera rápida.<br>
+
+### Creamos un indice principal:
+```
+    <h1 id="indice">Indice</h1>
+    <a href="#seccion1">Enlace a primer seccion</a><br>
+    <a href="#seccion2">Enlace a segundo seccion</a><br>
+    <a href="#seccion3">Enlace a tercer seccion</a><br>
+```
+* En el encabezado ``<h1 id="indice">Indice</h1>`` he crado el titulo 'Indice' y le asignado el identificador id="indice"
+* Cada enlace ``<a href="#seccion1">`` Enlace a primer seccion tiene un atributo href que apunta a un id específico (#seccion1, #seccion2, #seccion3), que son los identificadores de cada sección.<br>
+
+### Secciones de Contenido:
+```
+    <h4 id="seccion1">Primer seccion</h4>
+    <p>Lorem ipsum...</p>
+```
+* Cada sección comienza con un encabezado ``<h4>`` que tiene un id único (por ejemplo, id="seccion1" para la primera sección). Este identificador coincide con el destino al que apunta el enlace en el índice (href="#seccion1").
+
+
 
 
 
