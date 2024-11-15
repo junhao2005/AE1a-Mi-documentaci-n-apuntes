@@ -2,7 +2,7 @@
 
 ## Index:
 
-1. [GITHUB](#Cracion de repositorio y clonacion con cmd)
+1. [GITHUB](#Cracion-de-repositorio-y-clonacion-con-cmd)
 2. [Tema 1](#tema-1)
 3. [Tema 2](#tema-2)
 4. [Conclusión](#conclusión)
