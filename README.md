@@ -1,5 +1,11 @@
 # AE1a-Mi-documentaci-n-apuntes
-Apuntes durante el curso
+
+## Index:
+
+1. [GITHUB](#Cracion de repositorio y clonacion con cmd)
+2. [Tema 1](#tema-1)
+3. [Tema 2](#tema-2)
+4. [Conclusión](#conclusión)
 
 # Cracion de repositorio y clonacion con cmd
 Para crear un repositorio tenemos que entrar al 'Your repositories' una vez que entremos al repositorio le damos al 'New'.
@@ -265,7 +271,11 @@ En HTML que permite a los usuarios navegar entre diferentes secciones de la pág
     <h4 id="seccion1">Primer seccion</h4>
     <p>Lorem ipsum...</p>
 ```
-* Cada sección comienza con un encabezado ``<h4>`` que tiene un id único (por ejemplo, id="seccion1" para la primera sección). Este identificador coincide con el destino al que apunta el enlace en el índice (href="#seccion1").
+* Cada sección comienza con un encabezado ``<h4>`` que tiene un id único (por ejemplo, id="seccion1" para la primera sección). Este identificador coincide con el destino al que apunta el enlace en el índice (href="#seccion1").<br>
+
+# SEM2c: Contenedores, formularios y tablas
+
+
 
 
 
