@@ -3,9 +3,9 @@
 ## Index:
 
 1. [GITHUB](#Cracion-de-repositorio-y-clonacion-con-cmd)
-2. [Tema 1](#tema-1)
-3. [Tema 2](#tema-2)
-4. [Conclusión](#conclusión)
+2. [Markdown](#Markdown)
+3. [HTML](#HTML)
+
 
 # Cracion de repositorio y clonacion con cmd
 Para crear un repositorio tenemos que entrar al 'Your repositories' una vez que entremos al repositorio le damos al 'New'.
@@ -39,6 +39,9 @@ Resultado: aqui podemos ver que ya esta clonado.
 * **git pull**: bajar el cambio
 * **git clone**: sirve para clonar
 <br>
+
+# Markdown
+Markdown es un lenguaje de marcado ligero que se utiliza para formatear texto de manera sencilla y rápida. Fue creado por John Gruber en 2004 con el objetivo de que las personas pudieran escribir de forma legible y fácil de escribir, mientras que al mismo tiempo generaba contenido que pudiera convertirse en HTML (el lenguaje utilizado para las páginas web).
 
 # Comando basico de markdown
 
@@ -149,7 +152,7 @@ Resultado:
 |**ASIX1** |Curso 2425|33| 
 |DAW2 |Curso 2425|35| 
 
-# ¿Que es HTML?
+# HTML
 HTML (HyperText Markup Language) es el lenguaje de marcado utilizado para estructurar y presentar contenido en la web. Define la estructura de una página web mediante etiquetas.
 <br>
 
