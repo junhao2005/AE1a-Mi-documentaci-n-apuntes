@@ -2,12 +2,13 @@
 
 ## Index:
 
-1. [GITHUB](#Cracion-de-repositorio-y-clonacion-con-cmd)
+1. [GITHUB](#Github)
 2. [Markdown](#Markdown)
 3. [HTML](#HTML)
 
-
-# Cracion de repositorio y clonacion con cmd
+# Github
+Github es una página web donde programadores guardan su código y trabajan juntos en proyectos. Funciona como una "nube" para el código, permitiendo que varios programadores hagan cambios sin borrar el trabajo de otros, ya que guarda todo el historial de cambios. También ayuda a discutir mejoras, revisar el trabajo y organizar tareas, haciendo más fácil crear software en equipo.
+## Cracion de repositorio y clonacion con cmd
 Para crear un repositorio tenemos que entrar al 'Your repositories' una vez que entremos al repositorio le damos al 'New'.
 <br>
 ![img1](./img/img1.png "img1")
@@ -77,7 +78,7 @@ Resultado:
  
 
 ## Tabla ordenada y desordenada
-Mostracion desde markdown:
+Mostracion desde markdown: (los ordenada llevan numeros y los desordenadas usan simbolos)
 ```
 1. Primer punto de la lista
     1. Primer elemento de la sublista 1
@@ -122,6 +123,8 @@ usando este simbolo "```" para mostrar los codigos.
 ```
 ## Añadir url
 
+- Añadimos un texto o un titulo dentro de corchetes.
+- Y luego añadimos url dentro de la parenteci.
 ```
 [textoClicable](URL "Titulo opcional")
 
@@ -145,6 +148,10 @@ Mostracion desde markdown:
 |**ASIX1** |Curso 2425|33| 
 |DAW2 |Curso 2425|35| 
 ```
+- Los dos puntos (:) sirven para decidir cómo se alinean las columnas en una tabla (a la izquierda, en el centro o a la derecha).
+- No es necesario que las columnas queden perfectamente alineadas en el código; eso es solo para que sea fácil de leer.
+- Para hacer una tabla, usa al menos tres guiones (---) para separar los títulos (encabezados) de las columnas del contenido de la tabla.
+
 Resultado:
 |Titulo 1 | Titulo 2 | Titulo 3 |
 |-----------|:----------:|--------------|
@@ -156,7 +163,8 @@ Resultado:
 HTML (HyperText Markup Language) es el lenguaje de marcado utilizado para estructurar y presentar contenido en la web. Define la estructura de una página web mediante etiquetas.
 <br>
 
-# Estructura Básica de un Documento HTML
+## Estructura Básica de un Documento HTML
+Estructura de html:
 ```
 <!DOCTYPE html>
 <html lang="es">
@@ -198,7 +206,7 @@ HTML (HyperText Markup Language) es el lenguaje de marcado utilizado para estruc
 
 ## Ejemplo de la lista desordenada
 
-Mostracion en html: para crear una lista desordenada tenemos que usar el etiqueta ul uno en el pripncipio y una en el finla y en el medio usamos li para listarlo.
+Mostracion en html: para crear una lista desordenada tenemos que usar el etiqueta (ul) uno en el pripncipio y una en el finla y en el medio usamos li para listarlo.
 
 Ej:
 ```
@@ -216,7 +224,7 @@ Resultado:
 </ul>
 
 ## Ejemplo de la lista ordenada
-Para crear una lista desordenada tenemos que usar el etiqueta ul uno en el pripncipio y una en el finla y en el medio usamos li para listarlo.
+Para crear una lista desordenada tenemos que usar el etiqueta (ol) uno en el pripncipio y una en el finla y en el medio usamos li para listarlo.
 
 Mostracion en html:
 ```
@@ -269,12 +277,53 @@ En HTML que permite a los usuarios navegar entre diferentes secciones de la pág
 * En el encabezado ``<h1 id="indice">Indice</h1>`` he crado el titulo 'Indice' y le asignado el identificador id="indice"
 * Cada enlace ``<a href="#seccion1">`` Enlace a primer seccion tiene un atributo href que apunta a un id específico (#seccion1, #seccion2, #seccion3), que son los identificadores de cada sección.<br>
 
+### Ruta absoluta:
+En HTML es una URL completa que lleva directamente a un recurso especifico, como una paquina web o imagen, sin importat desde donde se acceda.
+
+Ej: 
+```
+<a href="https://www.ejemplo.com/pagina.html">Ir a página</a>
+```
+
+### Ruta relativa:
+Una ruta relativa no usa la URL completa en cambio, indica la ubicación de un archivo en relación con la ubicación del archivo actual. Esto es útil para organizar archivos dentro de un proyecto sin preocuparse por el dominio completo o la ubicación específica.
+
+Ej: 
+```
+<a href="../pagina.html">Ir a página</a>
+```
+
 ### Secciones de Contenido:
 ```
     <h4 id="seccion1">Primer seccion</h4>
     <p>Lorem ipsum...</p>
 ```
 * Cada sección comienza con un encabezado ``<h4>`` que tiene un id único (por ejemplo, id="seccion1" para la primera sección). Este identificador coincide con el destino al que apunta el enlace en el índice (href="#seccion1").<br>
+
+### Organizacion de ficheros:
+Cuando una aplicación web es grande, tiene muchos tipos de archivos diferentes: páginas HTML, estilos CSS, imágenes, videos, etc. Para mantener todo ordenado y fácil de encontrar, es importante organizarlos en carpetas.
+
+Por ejemplo, podriamos crear una estructura como esta:
+```
+|--web 
+| |--imatges 
+| | |--img1.png 
+| | |--img2.jpg 
+| | |--img3.gif 
+| | |... 
+| |--videos 
+| | |--video1.mpg 
+| | |--video2.mpg 
+| | |... 
+| |--css 
+| | |--estil.css 
+| | |... 
+| |--index.html 
+| |--seccion1.html 
+| |--seccion2.html 
+| |--contacte.html 
+| |... 
+```
 
 # SEM2c: Contenedores, formularios y tablas
 
