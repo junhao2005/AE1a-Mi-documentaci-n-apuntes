@@ -356,6 +356,45 @@ En HTML, los formularios son una herramienta para recolectar datos de los usuari
 ```
 
 
+### Ejemplo de crear casillas para seleccionar opciones:
+
+Crear ``<input type="radio">``:de solo una opción entre varias.
+- Primero de todo ponemos un ``<fieldset>`` que es para crear un bloque.
+- Luego usamos ``<legend>`` para encabezado.
+- Y luego usamos ``<input type="radio">`` para crea opciones de selección única. Al tener el mismo name (idioma), solo se puede seleccionar una opción de idioma a la vez (Castellano, Catalán o Chino).
+- Despues usamos ``<label>`` es para poner texto al lado de cada opción, enlazado con for, que facilita la selección.
+
+
+```
+<fieldset> 
+    <legend>Idioma:</legend> <!--encabezado-->
+    <input type="radio" id="castellano" name="idioma" value="castellano">
+    <label for="castellano">Castellano</label>
+
+    <input type="radio" id="catalan" name="idioma" value="catalan">  
+    <label for="catalan">Catalan</label>
+
+    <input type="radio" id="chino" name="idioma" value="chino">
+    <label for="chino">Chino</label>
+</fieldset>
+```
+Crear ``<input type="checkbox">``: de múltiples opciones a la vez.
+```
+<fieldset> 
+    <legend>Nacionalidad:</legend> 
+    <input type="checkbox" id="espanola" name="nacionalidad" value="espanola">
+    <label for="espanola">Española</label>
+        
+    <input type="checkbox" id="china" name="nacionalidad" value="china"> 
+    <label for="china">China</label>
+
+    <input type="checkbox" id="francia" name="nacionalidad" value="francia">
+    <label for="francia">Francia</label>
+</fieldset>
+```	
+
+
+
 
 
 
