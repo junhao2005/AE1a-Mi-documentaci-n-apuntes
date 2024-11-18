@@ -391,7 +391,47 @@ Crear ``<input type="checkbox">``: de múltiples opciones a la vez.
     <input type="checkbox" id="francia" name="nacionalidad" value="francia">
     <label for="francia">Francia</label>
 </fieldset>
+``` 
+
+### Ejemplo de crear un cuadro de texto ancho:
+
+- ``<label>``: Muestra el texto "Observaciones" y está vinculado al área de texto.
+- ``<textarea>``: Crea un cuadro para escribir comentarios largos.
+    - cols="80": Ancho del cuadro (horizontal).
+    - rows="4": Alto del cuadro (vertical).
+    - placeholder: Muestra el mensaje "Introduce tus comentarios" como pista dentro del cuadro.
+
+```
+<label for="observaciones">Observaciones</label><br> <!--cols es horizontal rows es vertical-->
+<textarea name="observaciones" id="observaciones" cols="80" rows="4" placeholder="Intoduce tus comentarios"></textarea>
+```
+
+### Crear un menú desplegable de opciones
+
+- Usasmos ``<label>`` para poner un texto al menu.
+- ``<select>``: Menú desplegable para elegir ciudad.
+    - ``<option disabled>``: Instrucción “--Seleccione una ciudad--” (no se puede elegir).
+    - Otras opciones: Ciudades disponibles (Barcelona, Madrid, Sevilla).
+```
+<label for="ciudad">Ciudad:</label><br>
+        <select name="ciudad" id="ciudad">
+            <option value="" selected disabled>--Seleccione una ciudad--</option>
+            <option value="barcelona">Barcelona</option>
+            <option value="madrid">Madrid</option>
+            <option value="sevilla">Sevilla</option>
+        </select>
+
+```
+
+### Crear botton
+- Usamso button type="submit" para que el boton envie el formulario.
+- Texto: Muestra "Enviar datos" en el botón.
+```
+<button type="submit">Enviar datos </button>
 ```	
+
+
+
 
 
 
