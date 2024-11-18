@@ -326,6 +326,39 @@ Por ejemplo, podriamos crear una estructura como esta:
 ```
 
 # SEM2c: Contenedores, formularios y tablas
+### Formularios:
+En HTML, los formularios son una herramienta para recolectar datos de los usuarios. Son especialmente útiles en páginas web donde se requiere que los usuarios ingresen información, como en registros, encuestas, búsquedas, comentarios, y otros tipos de interacción.
+
+### Etiquetas principales de un formulario:
+- <form>:  La etiqueta que envuelve todo el formulario.
+- <input>: Se utiliza para que el usuario escriba datos como texto, contraseñas o correos. 
+- <input type="radio">: Botones circulares para seleccionar solo una opción entre varias.
+- <input type="checkbox">: Casillas para seleccionar múltiples opciones a la vez.
+- <textarea>: Caja grande para escribir textos largos, como comentarios o descripciones.
+- <select>: Menú desplegable de opciones para elegir una sola opción (por ejemplo, una lista de países).
+- <button>: Muestra un botón que, normalmente, se usa para enviar el formulario.
+
+<br>
+
+### Ejemplo de crear un formulario de texto:
+- Primero de todo abrimos un '<form>'.
+- luego usamos '<label>' es para poner un titulo o un texto.
+- Y acontinuacion usamos el <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre"> esto sirve para crear un formulario de texto en este caso es un formulario de nombre. 
+- Por ultimo cerramos con este etiqueta '</form>'.
+
+```
+<form action="recepcion.php" method="POST">
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre">
+
+</form>
+```
+
+
+
+
+
 
 
 
