@@ -5,6 +5,7 @@
 1. [GITHUB](#Github)
 2. [Markdown](#Markdown)
 3. [HTML](#HTML)
+4. [CSS](#CSS)
 
 # Github
 Github es una página web donde programadores guardan su código y trabajan juntos en proyectos. Funciona como una "nube" para el código, permitiendo que varios programadores hagan cambios sin borrar el trabajo de otros, ya que guarda todo el historial de cambios. También ayuda a discutir mejoras, revisar el trabajo y organizar tareas, haciendo más fácil crear software en equipo.
@@ -430,6 +431,28 @@ Crear ``<input type="checkbox">``: de múltiples opciones a la vez.
 <button type="submit">Enviar datos </button>
 ```	
 
+### HTML semántico
+
+El **HTML semántico** es una forma de escribir HTML usando etiquetas que tienen un significado específico. Estas etiquetas no solo estructuran el contenido visualmente, sino que también explican qué rol cumple cada parte del contenido. Esto hace que sea más fácil para navegadores, motores de búsqueda y desarrolladores entender la estructura de la página.
+
+### Ejemplos de etiquetas semánticas:
+- `<header>`: Representa la cabecera de la página o una sección (puede incluir menús, títulos o logotipos).
+- `<main>`: Contiene el contenido principal de la página.
+- `<footer>`: Es el pie de página (con información como derechos de autor).
+- `<section>`: Se usa para dividir el contenido en secciones temáticas.
+- `<article>`: Es contenido independiente, como un artículo de blog.
+
+### ¿Por qué es útil?
+1. Hace que el código sea más claro y fácil de leer.
+2. Ayuda a los motores de búsqueda a entender mejor tu página (mejor SEO).
+3. Mejora la accesibilidad para tecnologías como lectores de pantalla.
+
+<img src="./img/img_html_sematico.png" alt="html sematico">
+
+### Validación de documentos HTML:
+Para validar nuestro document HTML podemos usar <a href="https://validator.w3.org/#validate_by_input">"Validador HTML del W3C"</a>.
+
+# CSS
 
 
 
