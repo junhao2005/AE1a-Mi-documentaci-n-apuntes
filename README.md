@@ -455,6 +455,122 @@ Para validar nuestro document HTML podemos usar <a href="https://validator.w3.or
 # CSS
 CSS (Cascading Style Sheets, o "Hojas de Estilo en Cascada") es un lenguaje utilizado para definir la apariencia y el diseño de una página web. Se usa junto con HTML para darle estilo a los elementos, como colores, fuentes, márgenes, tamaños y posiciones.
 
+
+## **📌 ¿Cómo funciona CSS?**
+CSS trabaja seleccionando elementos de una página HTML y aplicando reglas de estilo. Puede aplicarse de tres maneras:
+
+### **1️⃣ CSS en línea (Inline CSS)**
+Se coloca directamente en la etiqueta HTML usando el atributo `style`.
+
+```html
+<p style="color: blue; font-size: 16px;">Texto azul</p>
+```
+
+---
+
+### **2️⃣ CSS interno (Internal CSS)**
+Se coloca dentro de una etiqueta `<style>` en el `<head>` del documento HTML.
+
+```html
+<style>
+    p {
+        color: blue;
+        font-size: 16px;
+    }
+</style>
+```
+
+---
+
+### **3️⃣ CSS externo (External CSS)**
+Se usa un archivo `.css` separado y se enlaza con la página mediante la etiqueta `<link>`.
+
+```html
+<link rel="stylesheet" href="styles.css">
+```
+
+En el archivo `styles.css`:
+```css
+p {
+    color: blue;
+    font-size: 16px;
+}
+```
+
+---
+
+## **📌 Comandos más utilizados en CSS**
+Aquí hay algunas propiedades CSS muy usadas:
+
+### **1️⃣ Estilos de texto**
+- **`color`**: Cambia el color del texto.
+  ```css
+  p { color: red; }
+  ```
+- **`font-size`**: Tamaño del texto.
+  ```css
+  p { font-size: 20px; }
+  ```
+- **`font-family`**: Tipo de letra.
+  ```css
+  p { font-family: Arial, sans-serif; }
+  ```
+- **`text-align`**: Alineación del texto.
+  ```css
+  p { text-align: center; }
+  ```
+
+---
+
+### **2️⃣ Fondos y bordes**
+- **`background-color`**: Color de fondo.
+  ```css
+  body { background-color: lightgray; }
+  ```
+- **`border`**: Borde de un elemento.
+  ```css
+  div { border: 2px solid black; }
+  ```
+
+---
+
+### **3️⃣ Espaciado**
+- **`margin`**: Margen exterior.
+  ```css
+  div { margin: 20px; }
+  ```
+- **`padding`**: Espacio dentro del elemento.
+  ```css
+  div { padding: 10px; }
+  ```
+
+---
+
+### **4️⃣ Dimensiones**
+- **`width`**: Ancho.
+  ```css
+  div { width: 100px; }
+  ```
+- **`height`**: Alto.
+  ```css
+  div { height: 50px; }
+  ```
+
+---
+
+### **5️⃣ Posicionamiento**
+- **`position`**: Controla la posición de un elemento (`static`, `relative`, `absolute`, `fixed`).
+  ```css
+  div { position: absolute; top: 10px; left: 20px; }
+  ```
+- **`display`**: Controla cómo se muestra un elemento (`block`, `inline`, `flex`, `grid`).
+  ```css
+  div { display: flex; }
+  ```
+
+
+
+
 ## **HTML `<div>`**
 El `<div>` es un elemento contenedor en HTML que se usa para agrupar otros elementos y aplicar estilos con CSS.
 
