@@ -453,6 +453,185 @@ El **HTML semántico** es una forma de escribir HTML usando etiquetas que tienen
 Para validar nuestro document HTML podemos usar <a href="https://validator.w3.org/#validate_by_input">"Validador HTML del W3C"</a>.
 
 # CSS
+CSS (Cascading Style Sheets, o "Hojas de Estilo en Cascada") es un lenguaje utilizado para definir la apariencia y el diseño de una página web. Se usa junto con HTML para darle estilo a los elementos, como colores, fuentes, márgenes, tamaños y posiciones.
+
+## **HTML `<div>`**
+El `<div>` es un elemento contenedor en HTML que se usa para agrupar otros elementos y aplicar estilos con CSS.
+
+### **Ejemplo de uso:**
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de div</title>
+    <style>
+        .contenedor {
+            width: 300px;
+            padding: 20px;
+            background-color: lightblue;
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Hola, soy un div</h2>
+        <p>Este es un bloque de contenido.</p>
+    </div>
+</body>
+</html>
+```
+
+---
+
+## **🎨 CSS - Lenguaje de estilos**
+CSS (Cascading Style Sheets) se usa para dar estilo a los elementos HTML.
+
+### **Ejemplo: Cambiar color y tamaño de texto**
+```css
+h1 {
+    color: red;
+    font-size: 24px;
+}
+```
+
+---
+
+## **🔎 Selectores en CSS**
+Los selectores permiten aplicar estilos a elementos específicos.
+
+### **1️⃣ Selector Universal (`*`)**
+Aplica estilos a **todos** los elementos de la página.
+
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+```
+
+---
+
+### **2️⃣ Selectores de atributos**
+Se aplican a elementos que contienen un atributo específico.
+
+```css
+input[type="text"] {
+    background-color: yellow;
+}
+```
+
+---
+
+### **3️⃣ Selectores de hijos directos (`>`)**
+Selecciona solo los elementos que son hijos directos de otro elemento.
+
+```css
+div > p {
+    color: blue;
+}
+```
+
+```html
+<div>
+    <p>Este es azul</p>
+    <span>
+        <p>Este NO es azul</p>
+    </span>
+</div>
+```
+
+---
+
+### **4️⃣ Selectores de descendientes (` `)**
+Aplica estilos a todos los elementos dentro de otro, sin importar la jerarquía.
+
+```css
+div p {
+    color: green;
+}
+```
+
+```html
+<div>
+    <p>Este es verde</p>
+    <span>
+        <p>Este también es verde</p>
+    </span>
+</div>
+```
+
+---
+
+### **5️⃣ Selectores de hermanos adyacentes (`+`)**
+Selecciona el primer hermano inmediato de un elemento.
+
+```css
+h1 + p {
+    font-weight: bold;
+}
+```
+
+```html
+<h1>Título</h1>
+<p>Este párrafo será negrita.</p>
+<p>Este NO será negrita.</p>
+```
+
+---
+
+## **🎭 Pseudoclases y Pseudoelementos**
+### **Pseudoclases**
+Permiten aplicar estilos en un estado específico de un elemento.
+
+#### **Ejemplo: `:hover` (cuando pasas el mouse)**
+```css
+button:hover {
+    background-color: red;
+}
+```
+
+```html
+<button>Hazme hover</button>
+```
+
+---
+
+### **Pseudoelementos**
+Permiten dar estilo a partes específicas de un elemento.
+
+#### **Ejemplo: `::first-letter` (primera letra en grande)**
+```css
+p::first-letter {
+    font-size: 2em;
+    color: red;
+}
+```
+
+```html
+<p>Hola, esto es un ejemplo.</p>
+```
+
+
+
+### ✅ **Resumen**
+| Selector | Función |
+|----------|---------|
+| `*` | Aplica estilos a todos los elementos |
+| `elemento[atributo]` | Selecciona elementos con un atributo específico |
+| `elemento > hijo` | Solo los hijos directos |
+| `elemento descendiente` | Todos los elementos dentro |
+| `elemento + hermano` | Primer hermano inmediato |
+| `:hover` | Cambia estilo cuando se pasa el mouse |
+| `::first-letter` | Modifica la primera letra de un elemento |
+
+
+
+
+
 
 
 
