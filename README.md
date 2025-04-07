@@ -6,6 +6,7 @@
 2. [Markdown](#Markdown)
 3. [HTML](#HTML)
 4. [CSS](#CSS)
+5. [Diseño responsive](#Diseño_responsive)
 
 # Github
 Github es una página web donde programadores guardan su código y trabajan juntos en proyectos. Funciona como una "nube" para el código, permitiendo que varios programadores hagan cambios sin borrar el trabajo de otros, ya que guarda todo el historial de cambios. También ayuda a discutir mejoras, revisar el trabajo y organizar tareas, haciendo más fácil crear software en equipo.
@@ -453,10 +454,10 @@ El **HTML semántico** es una forma de escribir HTML usando etiquetas que tienen
 Para validar nuestro document HTML podemos usar <a href="https://validator.w3.org/#validate_by_input">"Validador HTML del W3C"</a>.
 
 # CSS
-CSS (Cascading Style Sheets, o "Hojas de Estilo en Cascada") es un lenguaje utilizado para definir la apariencia y el diseño de una página web. Se usa junto con HTML para darle estilo a los elementos, como colores, fuentes, márgenes, tamaños y posiciones.
+CSS (Cascading Style Sheets, o "Hojas de Estilo en Cascada") es un lenguaje utilizado para definir la apariencia y el diseño de una página web. Se usa junto con HTML para darle estilo a los elementos, como colores, fuentes, márgenes, tamaños, posiciones...
 
 
-## **📌 ¿Cómo funciona CSS?**
+## **¿Cómo funciona CSS?**
 CSS trabaja seleccionando elementos de una página HTML y aplicando reglas de estilo. Puede aplicarse de tres maneras:
 
 ### **1️⃣ CSS en línea (Inline CSS)**
@@ -480,7 +481,7 @@ Se coloca dentro de una etiqueta `<style>` en el `<head>` del documento HTML.
 </style>
 ```
 
----
+
 
 ### **3️⃣ CSS externo (External CSS)**
 Se usa un archivo `.css` separado y se enlaza con la página mediante la etiqueta `<link>`.
@@ -499,8 +500,8 @@ p {
 
 ---
 
-## **📌 Comandos más utilizados en CSS**
-Aquí hay algunas propiedades CSS muy usadas:
+## **Comandos más utilizados en CSS**
+
 
 ### **1️⃣ Estilos de texto**
 - **`color`**: Cambia el color del texto.
@@ -522,7 +523,7 @@ Aquí hay algunas propiedades CSS muy usadas:
 
 ---
 
-### **2️⃣ Fondos y bordes**
+### **Fondos y bordes**
 - **`background-color`**: Color de fondo.
   ```css
   body { background-color: lightgray; }
@@ -534,7 +535,7 @@ Aquí hay algunas propiedades CSS muy usadas:
 
 ---
 
-### **3️⃣ Espaciado**
+### **Espaciado**
 - **`margin`**: Margen exterior.
   ```css
   div { margin: 20px; }
@@ -546,7 +547,7 @@ Aquí hay algunas propiedades CSS muy usadas:
 
 ---
 
-### **4️⃣ Dimensiones**
+### **Dimensiones**
 - **`width`**: Ancho.
   ```css
   div { width: 100px; }
@@ -699,8 +700,8 @@ h1 + p {
 
 ---
 
-## **🎭 Pseudoclases y Pseudoelementos**
-### **Pseudoclases**
+## **Pseudoclases y Pseudoelementos**
+### **Pseudoclases:**
 Permiten aplicar estilos en un estado específico de un elemento.
 
 #### **Ejemplo: `:hover` (cuando pasas el mouse)**
@@ -716,7 +717,7 @@ button:hover {
 
 ---
 
-### **Pseudoelementos**
+### **Pseudoelementos:**
 Permiten dar estilo a partes específicas de un elemento.
 
 #### **Ejemplo: `::first-letter` (primera letra en grande)**
@@ -743,6 +744,66 @@ p::first-letter {
 | `elemento + hermano` | Primer hermano inmediato |
 | `:hover` | Cambia estilo cuando se pasa el mouse |
 | `::first-letter` | Modifica la primera letra de un elemento |
+
+
+
+
+# Diseño_responsive
+
+# Apuntes: Diseño Responsive y Media Queries
+
+## ✅ ¿Qué es el Diseño Responsive?
+
+- Técnica de diseñar la web que **adapta el contenido** al tamaño de la pantalla del dispositivo.
+- Evita tener que hacer zoom o girar la pantalla...
+- Se usa para que una web funcione bien en:
+  - 📱 Mobiles
+  - 💻 Portatiles
+  - 📟 Tablets
+
+## ¿Qué son las Media Queries?
+
+- Reglas en CSS que permiten aplicar estilos **según condiciones específicas** del ordenador, mobiles...
+- Se usan para crear **diseño responsive**.
+
+### Ejemplo básica:
+
+```css
+@media (max-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+}
+```
+(Se pondra el fondo azul solo si el ancho de la pantalla es menor o igual a 768px.)
+
+
+
+
+### Ejemplo práctico:
+
+```css
+<style>
+  .container {
+    display: flex;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+</style>
+
+<div class="container">
+  <div>Elemento 1</div>
+  <div>Elemento 2</div>
+</div>
+
+```
+
+- En pantallas grandes: los elementos van uno al lado del otro.
+- En pantallas pequeñas: los elementos se colocan uno debajo del otro.
 
 
 
