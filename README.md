@@ -805,6 +805,17 @@ p::first-letter {
 - En pantallas grandes: los elementos van uno al lado del otro.
 - En pantallas pequeñas: los elementos se colocan uno debajo del otro.
 
+### Ejemplo: asi se ve sin Media Queries
+
+![Texto alternativo](img/ej_web.png)
+
+
+### Ejemplo: asi se ve con Media Queries
+
+![Texto alternativo](img/ej_mediaquery.png)
+
+
+
 
 
 
