@@ -454,11 +454,11 @@ El **HTML semántico** es una forma de escribir HTML usando etiquetas que tienen
 Para validar nuestro document HTML podemos usar <a href="https://validator.w3.org/#validate_by_input">"Validador HTML del W3C"</a>.
 
 # CSS
-CSS (Cascading Style Sheets, o "Hojas de Estilo en Cascada") es un lenguaje utilizado para definir la apariencia y el diseño de una página web. Se usa junto con HTML para darle estilo a los elementos, como colores, fuentes, márgenes, tamaños, posiciones...
+CSS (Cascading Style Sheets, o "Hojas de Estilo en Cascada") es un lenguaje utilizado para el diseño de una página web. Se usa junto con HTML para darle estilo a los elementos, como colores, fuentes, márgenes, tamaños, posiciones...
 
 
 ## **¿Cómo funciona CSS?**
-CSS trabaja seleccionando elementos de una página HTML y aplicando reglas de estilo. Puede aplicarse de tres maneras:
+CSS funciona seleccionando elementos de una página HTML y aplicando reglas de estilo. Puede aplicarse de estas 3 maneras:
 
 ### **1️⃣ CSS en línea (Inline CSS)**
 Se coloca directamente en la etiqueta HTML usando el atributo `style`.
@@ -484,12 +484,19 @@ Se coloca dentro de una etiqueta `<style>` en el `<head>` del documento HTML.
 
 
 ### **3️⃣ CSS externo (External CSS)**
-Se usa un archivo `.css` separado y se enlaza con la página mediante la etiqueta `<link>`.
+Se usa en un archivo `.css` separado y se enlaza con la página mediante la etiqueta `<link>`.
 
 ```html
-<link rel="stylesheet" href="styles.css">
-```
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Turisme local</title>
+
+    <link rel="stylesheet" href="./style.css"> <!--como este-->
+
+</head>
+```
 En el archivo `styles.css`:
 ```css
 p {
@@ -503,7 +510,7 @@ p {
 ## **Comandos más utilizados en CSS**
 
 
-### **1️⃣ Estilos de texto**
+### **Estilos de texto**
 - **`color`**: Cambia el color del texto.
   ```css
   p { color: red; }
@@ -547,7 +554,7 @@ p {
 
 ---
 
-### **Dimensiones**
+### **Tamaños**
 - **`width`**: Ancho.
   ```css
   div { width: 100px; }
@@ -559,7 +566,7 @@ p {
 
 ---
 
-### **5️⃣ Posicionamiento**
+### **Posicionamiento**
 - **`position`**: Controla la posición de un elemento (`static`, `relative`, `absolute`, `fixed`).
   ```css
   div { position: absolute; top: 10px; left: 20px; }
@@ -603,7 +610,7 @@ El `<div>` es un elemento contenedor en HTML que se usa para agrupar otros eleme
 
 ---
 
-## **🎨 CSS - Lenguaje de estilos**
+## **CSS - Lenguaje de estilos**
 CSS (Cascading Style Sheets) se usa para dar estilo a los elementos HTML.
 
 ### **Ejemplo: Cambiar color y tamaño de texto**
@@ -616,10 +623,10 @@ h1 {
 
 ---
 
-## **🔎 Selectores en CSS**
+## **Selectores en CSS**
 Los selectores permiten aplicar estilos a elementos específicos.
 
-### **1️⃣ Selector Universal (`*`)**
+### **Selector Universal (`*`)**
 Aplica estilos a **todos** los elementos de la página.
 
 ```css
@@ -632,7 +639,7 @@ Aplica estilos a **todos** los elementos de la página.
 
 ---
 
-### **2️⃣ Selectores de atributos**
+### **Selectores de atributos**
 Se aplican a elementos que contienen un atributo específico.
 
 ```css
@@ -643,7 +650,7 @@ input[type="text"] {
 
 ---
 
-### **3️⃣ Selectores de hijos directos (`>`)**
+### **Selectores de hijos directos (`>`)**
 Selecciona solo los elementos que son hijos directos de otro elemento.
 
 ```css
@@ -663,7 +670,7 @@ div > p {
 
 ---
 
-### **4️⃣ Selectores de descendientes (` `)**
+### **Selectores de descendientes (` `)**
 Aplica estilos a todos los elementos dentro de otro, sin importar la jerarquía.
 
 ```css
@@ -683,7 +690,7 @@ div p {
 
 ---
 
-### **5️⃣ Selectores de hermanos adyacentes (`+`)**
+### **Selectores de hermanos adyacentes (`+`)**
 Selecciona el primer hermano inmediato de un elemento.
 
 ```css
@@ -734,7 +741,7 @@ p::first-letter {
 
 
 
-### ✅ **Resumen**
+### **Resumen**
 | Selector | Función |
 |----------|---------|
 | `*` | Aplica estilos a todos los elementos |
@@ -752,14 +759,15 @@ p::first-letter {
 
 # Apuntes: Diseño Responsive y Media Queries
 
-## ✅ ¿Qué es el Diseño Responsive?
+## ¿Qué es el Diseño Responsive?
 
-- Técnica de diseñar la web que **adapta el contenido** al tamaño de la pantalla del dispositivo.
-- Evita tener que hacer zoom o girar la pantalla...
-- Se usa para que una web funcione bien en:
+- Es una forma de crear páginas web que **se ajustan solas** al tamaño de la pantalla.
+- Así no necesitas hacer zoom ni mover la pantalla de lado.
+- Sirve para que la pagina web se vea mejor en:
   - 📱 Mobiles
-  - 💻 Portatiles
+  - 💻 Portátiles
   - 📟 Tablets
+
 
 ## ¿Qué son las Media Queries?
 
